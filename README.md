@@ -13,5 +13,5 @@ Future plans include:
 
 Any issues you have, feel free to contact me.
 
-[](screenshot0.png)
-[](screenshot1.png)
+![](https://raw.githubusercontent.com/andreinonea/barbooth/master/screenshot0.png)
+![](https://raw.githubusercontent.com/andreinonea/barbooth/master/screenshot1.png)
