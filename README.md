@@ -13,5 +13,5 @@ Future plans include:
 
 Any issues you have, feel free to contact me.
 
-!(screenshot0.png)
-!(screenshot1.png)
+[](screenshot0.png)
+[](screenshot1.png)
