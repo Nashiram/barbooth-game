@@ -2,7 +2,7 @@
 
 ###### [Download here](https://github.com/andreinonea/barbooth/releases)
 
-This is a personal project so please do not expect much from it. **Barbooth** takes two player names, rolls two random dices and prints out the winner. The game features a round counter and a simple user interface. There are two game modes:
+This is a personal project so please do not expect much from it. **Barbooth** takes two player names, rolls two random dice and prints out the winner. The game features a round counter and a simple user interface. There are two game modes:
 - "highs" designates the highst dice as the winner; 
 - "lows" viceversa.
 
