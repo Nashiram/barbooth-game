@@ -10,9 +10,9 @@ This is a personal project so please do not expect much from it. **Barbooth** ta
                                                Other combinations are meaningless. The second player (the fader) usually places bets.
 
 Future plans include:
-- [] adding a log file in an user-chosen folder which stores a short history of recent games;
-- [] creating a 'history' command to fetch that information;
-- [] creating executable files for each Operating System. 
+- [ ] adding a log file in an user-chosen folder which stores a short history of recent games;
+- [ ] creating a 'history' command to fetch that information;
+- [ ] creating executable files for each Operating System. 
 
 Any issues you have, feel free to contact me.
 
