@@ -1,1 +1,8 @@
+version: 0.1.0
+title: Barbooth
+description: A simple text-based dice game
 theme: jekyll-theme-cayman
+repo: https://github.com/andreinonea/barbooth
+show_downloads: "true"
+github:
+  latest_url: https://github.com/andreinonea/barbooth/releases/download/v1.1/Barbooth.exe
