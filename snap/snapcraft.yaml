@@ -1,0 +1,23 @@
+name: barbooth
+version: git
+icon: ../static/icon.png
+summary: A simple text-based dice game
+description: |
+  Barbooth takes two player names, rolls two random dice and prints out the winner. 
+  The game features a round counter and a simple user interface. 
+  There are three game modes: highs, lows and classic. Project made for fun.
+
+confinement: devmode
+grade: stable
+
+parts:
+  barbooth:
+    plugin: python
+    python-version: python3
+    source: .
+    requirements: requirements.txt
+
+apps:
+  barbooth:
+    command: bin/barbooth
+    
