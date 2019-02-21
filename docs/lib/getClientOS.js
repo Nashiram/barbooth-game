@@ -26,7 +26,7 @@ var downloadMsg = "Download latest release"
 if (navigator.appVersion.indexOf("Linux") != -1) 
 {
   OSName="Linux";
-  downloadMsg = "Download latest release\n.deb";
+  downloadMsg = "Download latest release | .deb";
 }
 
 document.getElementById("download").innerHTML = downloadMsg;
