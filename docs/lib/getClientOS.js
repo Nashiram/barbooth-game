@@ -5,10 +5,28 @@
 // "UNIX"       for all other UNIX flavors 
 // "Unknown OS" indicates failure to detect the OS
 
-var OSName="Unknown OS";
-if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
-if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
-if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
-if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
+var OSName = "Unknown OS";
+var downloadMsg = "Download latest release"
 
-document.write('Your OS: ' + OSName);
+if (navigator.appVersion.indexOf("Win") != -1) 
+{
+  OSName = "Windows";
+  downloadMsg = "Download .exe";
+}
+if (navigator.appVersion.indexOf("Mac") != -1)
+{
+  OSName = "MacOS";
+  downloadMsg = "Download .dmg";
+} 
+if (navigator.appVersion.indexOf("X11") !=- 1) 
+{
+  OSName = "UNIX";
+  downloadMsg = "Download .tar.gz";
+}
+if (navigator.appVersion.indexOf("Linux") != -1) 
+{
+  OSName="Linux";
+  downloadMsg = "Download .deb";
+}
+
+document.getElementById("download").innerHTML = downloadMsg;
