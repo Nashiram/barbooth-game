@@ -8,21 +8,21 @@
 var OSName = "Unknown OS";
 var downloadMsg = "Download latest release"
 
-if (navigator.appVersion.indexOf("Win") != -1) 
-{
-  OSName = "Windows";
-  downloadMsg = downloadMsg + "\n.exe";
-}
-if (navigator.appVersion.indexOf("Mac") != -1)
-{
-  OSName = "MacOS";
-  downloadMsg = "Download .dmg";
-} 
-if (navigator.appVersion.indexOf("X11") !=- 1) 
-{
-  OSName = "UNIX";
-  downloadMsg = "Download .tar.gz";
-}
+// if (navigator.appVersion.indexOf("Win") != -1) 
+// {
+//   OSName = "Windows";
+//   downloadMsg = downloadMsg + "\n.exe";
+// }
+// if (navigator.appVersion.indexOf("Mac") != -1)
+// {
+//   OSName = "MacOS";
+//   downloadMsg = "Download .dmg";
+// } 
+// if (navigator.appVersion.indexOf("X11") !=- 1) 
+// {
+//   OSName = "UNIX";
+//   downloadMsg = "Download .tar.gz";
+// }
 if (navigator.appVersion.indexOf("Linux") != -1) 
 {
   OSName="Linux";
