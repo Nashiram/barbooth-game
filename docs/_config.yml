@@ -5,5 +5,4 @@ theme: jekyll-theme-cayman
 repo: https://github.com/andreinonea/barbooth
 show_downloads: "true"
 github:
-  latest_url: https://github.com/andreinonea/barbooth/releases/download/v1.1/Barbooth.exe
-  
+  latest_url: https://github.com/andreinonea/barbooth/releases/download/v1.2/Barbooth.exe

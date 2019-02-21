@@ -6,12 +6,12 @@
 // "Unknown OS" indicates failure to detect the OS
 
 var OSName = "Unknown OS";
-var downloadMsg = "Download  release"
+var downloadMsg = "Download latest release"
 
 if (navigator.appVersion.indexOf("Win") != -1) 
 {
   OSName = "Windows";
-  downloadMsg = "Download .exe";
+  downloadMsg = downloadMsg + "\n.exe";
 }
 if (navigator.appVersion.indexOf("Mac") != -1)
 {
@@ -26,7 +26,7 @@ if (navigator.appVersion.indexOf("X11") !=- 1)
 if (navigator.appVersion.indexOf("Linux") != -1) 
 {
   OSName="Linux";
-  downloadMsg = "Download .deb";
+  downloadMsg = downloadMsg + "\n.deb";
 }
 
 document.getElementById("download").innerHTML = downloadMsg;
