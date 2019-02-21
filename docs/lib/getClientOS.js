@@ -6,7 +6,7 @@
 // "Unknown OS" indicates failure to detect the OS
 
 var OSName = "Unknown OS";
-var downloadMsg = "Download latest release"
+var downloadMsg = "Download  release"
 
 if (navigator.appVersion.indexOf("Win") != -1) 
 {
