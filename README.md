@@ -1,4 +1,4 @@
-# A text-based Barbooth game
+# A text-based dice game
 
 ###### [Download here](https://github.com/andreinonea/barbooth/releases)
 
